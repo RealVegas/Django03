@@ -1,0 +1,90 @@
+/*---Content---*/
+p{
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #505050;
+    text-align: left;
+    padding: 10px 0 0 35px;
+}
+
+.strong{
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #505050;
+    text-align: left;
+}
+
+.pangramm{
+    font-family: "Calibri", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #505050;
+    text-align: left;
+}
+
+ol{
+    padding: 0 0 0 55px;
+}
+
+.content_box{
+    margin-bottom: 80px;
+}
+
+/*---Header---*/
+.navbar{
+    background-image: url("../img/font_collage.png");
+}
+
+.navbar-nav{
+    background-color: rgba(80,80,80,0.6);
+    margin-left: -17px;
+    padding: 10px 20px 0 0;
+    border-radius: 0 10px 10px 0;
+    height: 70px;
+}
+
+.navbar-brand{
+    font-family: "Roboto", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: rgba(80,80,80,0.6);
+    padding: 10px 20px 0 20px;
+    border-radius: 10px 0 0 10px;
+    height: 70px;
+}
+
+.nav-item{
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/*---Footer---*/
+footer{
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-image: url("../img/font_collage.png");
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1200;
+}
+
+.footer_textbox{
+    text-align: center;
+    width: 350px;
+    padding: 5px;
+    background-color: rgba(80,80,80,0.6);
+    border-radius: 8px;
+}
+
+.footer_ref{
+    color: aquamarine;
+}
