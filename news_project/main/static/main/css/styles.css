@@ -1,90 +1,59 @@
-/*---Content---*/
-p{
-    font-family: "Roboto", serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #505050;
-    text-align: left;
-    padding: 10px 0 0 35px;
-}
-
-.strong{
-    font-family: "Roboto", serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #505050;
-    text-align: left;
-}
-
-.pangramm{
-    font-family: "Calibri", sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: #505050;
-    text-align: left;
-}
-
-ol{
-    padding: 0 0 0 55px;
-}
-
-.content_box{
-    margin-bottom: 80px;
-}
-
-/*---Header---*/
-.navbar{
-    background-image: url("../img/font_collage.png");
-}
-
-.navbar-nav{
-    background-color: rgba(80,80,80,0.6);
-    margin-left: -17px;
-    padding: 10px 20px 0 0;
-    border-radius: 0 10px 10px 0;
-    height: 70px;
-}
-
 .navbar-brand{
-    font-family: "Roboto", serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: #FFFFFF;
-    background-color: rgba(80,80,80,0.6);
-    padding: 10px 20px 0 20px;
-    border-radius: 10px 0 0 10px;
-    height: 70px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
 }
-
-.nav-item{
-    font-size: 22px;
-    font-weight: 600;
-    color: #FFFFFF;
+.nav-link{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
 }
-
-/*---Footer---*/
-footer{
-    font-family: "Roboto", serif;
+.col-form-label{
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
-    font-weight: 500;
-    background-image: url("../img/font_collage.png");
+    font-weight: 300;
+    font-style: normal;
+    color: #505050;
+}
+.form-check-label{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: #505050;
+}
+.page-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #505050;
+}
+.page-text{
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #505050;
+}
+
+footer
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    align-items: flex-end;
     color: #FFFFFF;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
+    padding: 10px 20px;
+    background-color: #505050;
     z-index: 1200;
-}
-
-.footer_textbox{
-    text-align: center;
-    width: 350px;
-    padding: 5px;
-    background-color: rgba(80,80,80,0.6);
-    border-radius: 8px;
-}
-
-.footer_ref{
-    color: aquamarine;
 }

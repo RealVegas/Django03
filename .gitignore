@@ -158,4 +158,4 @@ cython_debug/
 .idea/
 
 # Preview htmls
-web_project/main/templates/main/preview.html
+news_project/main/templates/main/preview.html
