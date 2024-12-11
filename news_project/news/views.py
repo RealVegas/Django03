@@ -1,5 +1,8 @@
 from django.shortcuts import render
+from .models import NewsPost
+
 
 # Create your views here.
 def home(request):
-    return render(request, 'news/news.html', {'option': 'active'})
+    news: NewsPost = NewsPost.objects.all()
+    return render(request, 'news/news.html', {'option': 'active', 'news': news})
