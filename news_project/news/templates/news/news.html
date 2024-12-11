@@ -1,0 +1,13 @@
+{% extends "main/base.html" %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block content %}
+    {% include 'main/nav-bar.html' with news=option %}
+    <div class="container-fluid">
+    <p class="page-title">Это новости</p>
+    <p class="page-text">Главные новости сейчас!</p>
+    </div>
+{% endblock %}
